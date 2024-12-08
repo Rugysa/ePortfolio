@@ -1,0 +1,153 @@
+
+h1 {
+  color : white;
+  text-align : center;
+  font-size: 3.5em;
+  font-family : Times New Roman;
+  /*background-color:   #6495ED ;*/
+  background-color:   #01519b;
+  border : 0.1rem solid #000;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+ /* border-left : 0rem;
+  border-right :0rem;*/
+  border-radius: 0.1em;
+  border-color: black;
+ background-image: url("../Images/n7_titre.jpg");
+ background-position: right;
+ background-repeat : no-repeat;
+ /*background-size :cover;*/
+ background-size: contain;
+
+}
+
+h2 {
+  color : black;
+  font-weight: bold;
+  font-size : 2em;
+  text-align: center;
+  font-family :  Times New Roman;
+  background-color: #7D7DFF ;
+  border : 1px solid #000;
+  border-radius: 0.4em;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+
+}
+
+.Valencia p {
+  font-size : 1.5rem;
+  margin : 5rem 3rem;
+}
+
+
+.Valencia img {
+  float: left;
+  margin : 0rem 2rem;
+}
+
+.Enforex p {
+  font-size : 1.5rem;
+  margin : 2rem 3rem;
+}
+
+
+.Enforex img {
+  float: right;
+  margin : 0rem 2rem;
+}
+
+.Enforex li{
+  list-style-type: none;
+  margin: 0rem 8rem;
+
+}
+
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding: 0;                  /* Suppression des marges internes */
+    background-color: red;     /* Ajout de la couleur d'arrière-plan */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0rem 0rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 1.4rem;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: white;    /* Couleur d'arrière-plan */
+    color: black;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+   border-bottom: 3px solid #fff;       /* Ajout d'une bordure */
+   font-size: 1.2rem;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: white;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center;     /* Alignements des liens dans le menu */
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+
+    
+}
+
+.menu a:hover {
+  background-color: #f4f4f4;
+  color: black;
+  border-color: #00008B ;
+}
+
+.menu a.actif {    
+    background-color: white; 
+    color: #000 ;
+    border-bottom-color: #00008B ;
+}
+
+
+.menu a:hover.actif{
+  background-color: #f4f4f4;
+  color: #000;
+  border-color: purple;
+}
+
+header{
+margin : 0rem 0rem 2.5rem 0rem; /* haut, droite, bas; gauche */
+
+}
+
+
+footer{
+  color : white;
+  font-size : 1.1rem;
+  margin : 10rem 0rem;
+  background-color: #1947ba;
+  border-radius: 0.4rem;
+  border : 0.1rem solid black;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+  font-family: Courier New;
+}
+
+footer img{
+  float: right;
+  border-radius: 50%;
+
+}
+
+footer ul{
+  margin : 1.2rem;
+}
+
+footer a{
+  color : white;
+}
+
+footer p {
+
+  margin : 3rem 0rem 1.5rem 2rem;
+}

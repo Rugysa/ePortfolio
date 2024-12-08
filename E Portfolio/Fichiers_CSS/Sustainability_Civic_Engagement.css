@@ -1,0 +1,307 @@
+
+h1 {
+  color : white;
+  text-align : center;
+  font-size: 3.5em;
+  font-family : Times New Roman;
+  /*background-color:   #6495ED ;*/
+  background-color:   #01519b;
+  border : 0.1rem solid #000;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+ /* border-left : 0rem;
+  border-right :0rem;*/
+  border-radius: 0.1em;
+  border-color: black;
+ background-image: url("../Images/n7_titre.jpg");
+ background-position: right;
+ background-repeat : no-repeat;
+ /*background-size :cover;*/
+ background-size: contain;
+
+}
+
+h2 {
+  color : black;
+  font-weight: bold;
+  font-size : 2em;
+  text-align: center;
+  font-family :  Times New Roman;
+  background-color: #7D7DFF ;
+  border : 1px solid #000;
+  border-radius: 0.4em;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+  margin: 6rem 0rem 3rem 0rem;
+
+
+}
+
+h3 {
+  color : black;
+  font-weight: bold;
+  font-size : 1.4em;
+  text-align: center;
+  font-family :  Times New Roman;
+  background-color: #BBD2EC ;
+  border : 1px solid #000;
+  border-radius: 0.4em;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+  margin: 3rem 0rem;
+}
+
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0rem 0rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 1.4rem;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: white;    /* Couleur d'arrière-plan */
+    color: black;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+   border-bottom: 3px solid #fff;       /* Ajout d'une bordure */
+   font-size: 1.2rem;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: white;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center;     /* Alignements des liens dans le menu */
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+
+    
+}
+
+.menu a:hover {
+  background-color: #f4f4f4;
+  color: black;
+  border-color: #00008B ;
+}
+
+.menu a.actif {    
+    background-color: white; 
+    color: #000 ;
+    border-bottom-color: #00008B ;
+}
+
+
+.menu a:hover.actif{
+  background-color: #f4f4f4;
+  color: #000;
+  border-color: purple;
+}
+
+
+.sensibilisation {
+
+      display: flex;              /* Transformation en flexbox */
+      padding: 0rem ;;                  /* Suppression des marges internes */
+    background-color: white;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center;     /* Alignements des liens dans le menu */
+}
+
+
+.sensibilisation li{
+  list-style-type: none;
+  margin: 0rem 8rem;
+
+}
+
+.sensibilisation a {
+
+  display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0rem 0rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 1.4rem;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: black;    /* Couleur d'arrière-plan */
+    color: white;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+   border: 3px solid #fff;       /* Ajout d'une bordure */
+   border-radius: 0.4rem;
+   font-size: 1.2rem;
+
+}
+
+.sensibilisation a:hover {
+  background-color: white;
+  color: black;
+  border-color: #00008B ;
+}
+
+
+.Entreprenariat {
+
+      display: flex;              /* Transformation en flexbox */
+      padding: 0rem ;;                  /* Suppression des marges internes */
+    background-color: white;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center;     /* Alignements des liens dans le menu */
+}
+
+
+.Entreprenariat li{
+  list-style-type: none;
+  margin: 0rem 8rem;
+
+}
+
+.Entreprenariat a {
+
+  display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0rem 0rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 1.4rem;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: black;    /* Couleur d'arrière-plan */
+    color: white;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+   border: 3px solid #fff;       /* Ajout d'une bordure */
+   border-radius: 0.4rem;
+   font-size: 1.2rem;
+
+}
+
+.Entreprenariat a:hover {
+  background-color: white;
+  color: black;
+  border-color: #00008B ;
+}
+
+
+
+.AC7PT p {
+  font-size : 1.5rem;
+  margin : 2rem 3rem;
+}
+
+
+.AC7PT img {
+  float: left;
+  margin : 0rem 2rem;
+}
+
+.AC7PT li{
+  list-style-type: none;
+  margin: 0rem 8rem;
+
+}
+
+.AC7PT a {
+
+  display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0rem 8.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0rem 1.4rem;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: left;           /* Centrage du texte */   
+   /* background-color: black;    /* Couleur d'arrière-plan */
+    color: blue;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+  /* border: 3px solid #fff;       /* Ajout d'une bordure */
+   border-radius: 0.4rem;
+   font-size: 1.2rem;
+
+}
+
+.AC7PT a:hover{
+  color: red;
+}
+
+.Restos_Coeur p {
+  font-size : 2rem;
+  margin : 0rem 3rem;
+}
+
+
+.Restos_Coeur img {
+  float: left;
+  margin : 0rem 2rem 0rem 2rem;
+}
+
+.CDL p {
+  font-size : 2rem;
+  margin : 0rem 3rem;
+}
+
+
+.CDL img {
+  float: left;
+  margin : 0rem 2rem 0rem 2rem;
+}
+
+.THC p {
+  font-size : 2rem;
+  margin : 0rem 6rem 8rem 6rem;
+}
+
+
+.THC img {
+  float: left;
+  margin : 0rem 2rem 0rem 2rem;
+}
+
+.SeptF p {
+  font-size : 2rem;
+  margin : 0rem 6rem 8rem 6rem;
+}
+
+
+.SeptF img {
+  float: left;
+  margin : 0rem 2rem 0rem 2rem;
+}
+
+
+header{
+margin : 0rem 0rem 2.5rem 0rem; /* haut, droite, bas; gauche */
+
+}
+
+.légende {
+	margin : 1rem 45rem;
+}
+
+main a:hover{
+  color : black;
+  background-color: white;
+}
+
+
+
+footer{
+  color : white;
+  font-size : 1.1rem;
+  margin : 10rem 0rem;
+  background-color: #1947ba;
+  border-radius: 0.4rem;
+  border : 0.1rem solid black;
+   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+   font-family: Courier New;
+}
+
+footer img{
+  float: right;
+  /*border-radius: 50%;*/
+
+}
+
+footer ul{
+  margin : 1.2rem;
+}
+
+footer a{
+  color : white;
+}
+
+footer p {
+
+  margin : 3rem 0rem 1.5rem 2rem;
+}
